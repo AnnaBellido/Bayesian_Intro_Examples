@@ -7,6 +7,7 @@ if(!require(ggplot2)){
 
 #Setting all the possible values for theta:
 theta_values<-seq(from=0, to=1, length.out = 200)
+#un comment
 
 #Compute the likelihood function:
 likelihood<-dbinom(6, 10, prob=theta_values)
