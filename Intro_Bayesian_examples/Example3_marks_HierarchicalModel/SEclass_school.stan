@@ -23,7 +23,7 @@ model{
     marks_all ~ normal(7,3);
     disper_all ~ cauchy(0,1);
     
-    //Set the region marks to sample from the general population:
+    //Set the SEclass marks to sample from the general population:
     for(i in 1:n_SEclasses){
         marks_SEclass[i] ~ normal(marks_all, disper_all);
     }
