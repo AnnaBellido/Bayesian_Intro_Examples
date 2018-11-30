@@ -12,7 +12,6 @@ parameters{
     real<lower=0> disper_all;
     
     real marks_SEclass[n_SEclasses];
-    // real<lower=0> disper_SEclass[n_SEclasses];
     
     real offset_school[n_schools];
     real<lower=0> disper_school[n_schools];
